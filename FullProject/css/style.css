@@ -1,0 +1,215 @@
+body {
+  background: #f7f7f7 url("https://38.media.tumblr.com/c026c2203f47be8d0f3fb81f6c5aee25/tumblr_n2hutxfrNr1tubinno1_1280.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Roboto";
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body::before {
+  content: '';
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background: #e74c3c;
+  /* IE Fallback */
+  background: rgba(67, 74, 84, 0.8);
+  width: 100%;
+  height: 100%;
+}
+nav {
+  position: absolute;
+  width: 213px;
+  top: 50px;
+  left: 310px;
+  margin: -23px 0 0 -240px;
+}
+nav ul {
+  background: #48cfad;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  position: relative;
+  display: inline-block;
+  margin-right: -4px;
+  text-align: center;
+}
+nav ul li:first-child a {
+  background: #37bc9b;
+  width: 49px;
+  padding: 15px 0;
+}
+nav ul li:last-child {
+  margin: 0;
+}
+nav ul li a {
+  display: block;
+  background: #48cfad;
+  padding: 15px 20px;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+nav ul li a:hover {
+  background: #37bc9b;
+}
+nav ul li a:visited {
+  background: #37bc9b;
+}
+
+nav ul li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 240px;
+  border-bottom: 4px solid #48cfad;
+}
+nav ul li ul li {
+  display: block;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+nav ul li ul li a {
+  display: block;
+  background: #3a3a3a;
+  padding: 10px 15px;
+}
+nav ul li ul li a:first-child {
+  background: #3a3a3a;
+  width: auto;
+  border-left: 4px solid transparent;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+nav ul li ul li a:hover {
+  background: #333;
+  border-left: 4px solid #48cfad;
+}
+.login{
+    width:250px;
+    margin:50px auto;
+    padding:15px 20px;
+    background:#f5f5f5;
+    background-color:rgba(245,245,245,0.95);
+    border-radius: 10px;
+    box-shadow:0 0 5px rgba(0, 0, 0, 0.4);
+}
+label{
+    display:block;
+    margin-top:1em;
+    margin-bottom:0.5em;
+}
+label:first-child{
+    margin-top:0;
+}
+input[type="text"],
+input[type="password"]{
+    width:100%;
+    border:1px solid #ccc;
+    padding:4px 5px;
+    background:white;
+    border-radius: 5px;
+    box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-sizing:border-box;
+}
+input[type="text"]:focus,
+input[type="password"]:focus{
+    box-shadow:0 0 5px rgba(50, 200, 255, 0.5);
+    outline:none;
+}
+.testButton{
+    display:block;
+    padding:5px 15px;  
+    font-weight:bold;
+    color:#333;
+    background:white;
+    margin: auto;
+    margin-top:1em;
+    border:none;
+    border-radius: 12px;
+    background-image: linear-gradient(to bottom, #fff, #ddd);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    text-shadow:0 1px 1px white;
+    
+}
+.templ{
+    margin-top:150px;
+}
+
+.header {
+    text-align: center;
+    color: white;
+}
+
+.main {
+    width: 1220px;
+    height: 310px;
+    margin: auto;
+}
+
+.profile {
+    text-align: left;
+    width: 173px;
+    height: 200px;
+    margin: auto;
+    padding: 5px;
+    background: white;
+    float: left;
+}
+
+.mainChat {
+    text-align: left;
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    padding: 5px;
+    background: white;
+    float: left;
+    margin-left: 22px;
+    word-wrap: break-word;
+    overflow: scroll;
+}
+
+.textChat {
+    text-align: left;
+    width: 800px;
+    height: 30px;
+    margin: auto;
+}
+
+.buttons {
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    background: white;
+}
+
+.inputText {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    outline: none;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+
+.sendButton {
+    margin-left: 7px;
+    width: 60px;
+    height: 25px;
+}
+.EnterNameText{
+    margin-top: 10px;
+    margin-left: 65px;
+}
+ li {
+    list-style-type: none;
+   }
